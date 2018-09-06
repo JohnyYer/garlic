@@ -3,16 +3,16 @@
   <ngx-slick class="promoSlider" [config]="slideConfig">
     <div ngxSlickItem *ngFor="let slide of slides" class="promoOuterSlide">
       <div class="promoSlide">
-        <div class="promoImage backgroundImage" [ngStyle]="{'background-image': 'url(' + slide.main + ')'}">
+        <div class="promoImage backgroundImage" [ngStyle]="{'background-image': 'url(assets/img' + slide.sliderImages[0] + ')'}">
           <img src="assets/img/promo-mask.png" alt="" title="">
         </div>
-        <div class="promoContent" [ngStyle]="{'background-image': 'url(' + slide.secondary + ')'}">
+        <div class="promoContent" [ngStyle]="{'background-image': 'url(assets/img' + slide.sliderImages[1] + ')'}">
           <div class="promoInner">
             <div class="promoTitle">
-              Челогач
+              {{ slide.name }}
             </div>
             <div class="promoText">
-              свинина, соль/специи
+              {{ slide.ingredients }}
             </div>
             <!--<a href="" class="promoLink">
                 Подробнее

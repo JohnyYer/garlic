@@ -7,4 +7,5 @@ export class Dish {
   description: string;
   image: string;
   sliderImages: Array<string>;
+  isSpecial: boolean;
 }

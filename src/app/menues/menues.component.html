@@ -1,7 +1,7 @@
 <div class="complexSection defaultSection largeBottomPadding">
   <div class="container">
-    <div class="menuSideBar">
-      <div class="openMenu mobileView">меню</div>
+    <div class="menuSideBar" [ngClass]="{'openSideBar' : openMobileMenu}">
+      <div class="openMenu mobileView" (click)="openMenuTypes()" [ngClass]="{'active' : openMobileMenu}">меню</div>
       <div class="customTitle">
         меню
       </div>

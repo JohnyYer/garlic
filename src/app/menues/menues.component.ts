@@ -16,6 +16,7 @@ export class MenuesComponent implements OnInit {
   menuTypes = MENU_TYPES;
   dishes: Dish[];
   selectedMenuType = MENU_TYPES[0];
+  openMobileMenu = false;
 
   onMenuTypeSelect(item: MenuType): void {
     this.selectedMenuType = item;
@@ -29,6 +30,10 @@ export class MenuesComponent implements OnInit {
 
   getDishes(): void {
     this.dishes = this.dishService.getDishes();
+  }
+
+  openMenuTypes(): void {
+    this.openMobileMenu = !this.openMobileMenu;
   }
 
   ngOnInit() {

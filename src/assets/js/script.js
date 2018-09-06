@@ -48,11 +48,4 @@ $(document).ready(function() {
             $(this).parents('.headerNav').toggleClass('openSide').find('ul').toggleClass('open-nav');
         });
     }
-    if ($('.openMenu').length > 0) {
-        $('.openMenu').on('click', function (e) {
-            e.preventDefault();
-            $(this).toggleClass('active');
-            $(this).parents('.menuSideBar').toggleClass('openSideBar');
-        });
-    }
 });

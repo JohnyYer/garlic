@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Dish } from '../dish';
+import { DishService } from '../dish.service';
 
 @Component({
   selector: 'app-home',
@@ -7,14 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dishService: DishService) { }
 
-  slides = [
-    { main: 'assets/img/main_dishes/pork/chelogach/img0015.jpg', secondary: 'assets/img/main_dishes/pork/chelogach/img0015.jpg'},
-    { main: 'assets/img/first_dishes/morkovnyi_sup_s_bulgurom/img0013.jpg',
-      secondary: 'assets/img/first_dishes/morkovnyi_sup_s_bulgurom/img0016.jpg'},
-    { main: 'assets/img/salads/grecheskii/img0046.jpg', secondary: 'assets/img/salads/grecheskii/img0049.jpg'}
-  ];
+  slides: Dish[];
 
   slideConfig = {
     arrows: true,
@@ -85,7 +82,12 @@ export class HomeComponent implements OnInit {
     ]
   };
 
+  getSpecialDishes(): void {
+    this.dishService.getSpecialProposal().subscribe(specialDishes => this.slides = specialDishes);
+  }
+
   ngOnInit() {
+    this.getSpecialDishes();
   }
 
 }

@@ -17,4 +17,8 @@ export class DishService {
   getDish(name: string): Observable<Dish> {
     return of(DISHES.find(dish => dish.name === name));
   }
+
+  getSpecialProposal(): Observable<Dish[]> {
+    return of(DISHES.filter(dish => dish.isSpecial));
+  }
 }
