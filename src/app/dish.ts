@@ -1,8 +1,9 @@
 export class Dish {
-  id: Number;
-  name: String;
-  type: String;
-  price: Number;
-  ingredients: String;
-  description: String;
+  id: number;
+  name: string;
+  type: string;
+  price: string;
+  ingredients: string;
+  description: string;
+  image: string;
 }

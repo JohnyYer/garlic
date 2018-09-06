@@ -1,0 +1,33 @@
+<div class="promoSection defaultSection">
+
+  <ngx-slick class="promoSlider" [config]="slideConfig">
+    <div ngxSlickItem *ngFor="let slide of slides" class="promoOuterSlide">
+      <div class="promoSlide">
+        <div class="promoImage backgroundImage" [ngStyle]="{'background-image': 'url(' + slide.main + ')'}">
+          <img src="assets/img/promo-mask.png" alt="" title="">
+        </div>
+        <div class="promoContent" [ngStyle]="{'background-image': 'url(' + slide.secondary + ')'}">
+          <div class="promoInner">
+            <div class="promoTitle">
+              Челогач
+            </div>
+            <div class="promoText">
+              свинина, соль/специи
+            </div>
+            <!--<a href="" class="promoLink">
+                Подробнее
+            </a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </ngx-slick>
+
+</div>
+<!--<div class="container">
+    <div class="moreLink">
+        <a href="">
+            Посмотреть все акции
+        </a>
+    </div>
+</div>-->

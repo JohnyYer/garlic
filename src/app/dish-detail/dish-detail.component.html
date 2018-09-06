@@ -1,0 +1,35 @@
+<div class="singleItem">
+  <div class="container">
+    <a href="javascript:" (click)="goBack()" class="backButton">Назад</a>
+    <div class="singleProduct storeItem">
+
+      <ngx-slick class="productSlider">
+      <div class="productSlider">
+          <div ngxSlickItem *ngFor="let slide of [1,2,3]" [ngStyle]="{'background-image': 'url(assets/img' + dish.image + ')'}">
+            <img src="assets/img/product-mask.png" />
+          </div>
+      </div>
+      </ngx-slick>
+
+
+      <div class="productData storeContent">
+        <div class="storeTitle">{{ dish.name }}</div>
+        <div class="storePrice">{{ dish.price }} грн.</div>
+        <div class="storeInfo">
+          <div class="weight">250 гр.</div>
+          <div class="description">
+            {{ dish.ingredients }}
+          </div>
+        </div>
+        <!--<div class="storeBottom">
+          <div class="storeNum">
+            <span class="minus"></span>
+            <input type="text" value="1" min="0">
+            <span class="plus"></span>
+          </div>
+          <a href="" class="customBtn blueBtn">в корзину</a>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</div>

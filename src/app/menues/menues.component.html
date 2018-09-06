@@ -1,0 +1,55 @@
+<div class="complexSection defaultSection largeBottomPadding">
+  <div class="container">
+    <div class="menuSideBar">
+      <div class="openMenu mobileView">меню</div>
+      <div class="customTitle">
+        меню
+      </div>
+      <ul>
+        <li *ngFor="let item of menuTypes">
+          <a [ngClass]="{'active' : selectedMenuType.state === item.state}"
+             (click)="onMenuTypeSelect(item)" href="javascript:">{{ item.name }}</a>
+        </li>
+      </ul>
+    </div>
+    <div class="menuWrapper">
+      <div class="customTitle">
+        {{ selectedMenuType.name }}
+      </div>
+      <div class="menuItems">
+        <div class="menuItem" *ngFor="let dish of dishes ">
+          <div class="storeItem textCenter">
+            <div class="storePhoto backgroundImage" [ngStyle]="{'background-image': 'url(assets/img' + dish.image + ')'}">
+              <img src="assets/img/store-mask.png" alt="" title="">
+              <div class="storeInfo">
+                <div class="tableDiv">
+                  <div class="tableCell">
+                    {{ dish.ingredients }}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="storeContent">
+              <a routerLink="/dish/{{ dish.name }}" class="storeTitle">{{ dish.name }}</a>
+              <div class="storePrice">{{ dish.price }} грн.</div>
+              <div class="storeBottom">
+                <!--<div class="storeNum">
+                  <span class="minus"></span>
+                  <input type="text" value="1" min="0">
+                  <span class="plus"></span>
+                </div>
+                <a href="" class="storeBuy">в корзину</a>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--      <div class="moreLink">
+        <a href="">
+          Посмотреть еще
+        </a>
+      </div>-->
+    </div>
+  </div>
+</div>
+
