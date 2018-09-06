@@ -5,7 +5,7 @@
 
       <ngx-slick class="productSlider">
       <div class="productSlider">
-          <div ngxSlickItem *ngFor="let slide of [1,2,3]" [ngStyle]="{'background-image': 'url(assets/img' + dish.image + ')'}">
+          <div ngxSlickItem *ngFor="let slide of dish.sliderImages" [ngStyle]="{'background-image': 'url(assets/img' + slide + ')'}">
             <img src="assets/img/product-mask.png" />
           </div>
       </div>

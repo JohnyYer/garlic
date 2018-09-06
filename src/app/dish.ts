@@ -6,4 +6,5 @@ export class Dish {
   ingredients: string;
   description: string;
   image: string;
+  sliderImages: Array<string>;
 }
