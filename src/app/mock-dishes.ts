@@ -54,7 +54,7 @@ export const DISHES: Dish[] = [
   },
   {
     id: 1,
-    name: 'Макароны(фарфалле)',
+    name: 'Макароны (фарфалле)',
     ingredients: 'макароны / соль / сливочное масло',
     type: 'garnishes', description: '', price: '22', image: '/garnish/makarony_farfalle/img0030.jpg',
     sliderImages: [
@@ -66,8 +66,8 @@ export const DISHES: Dish[] = [
   },
   {
     id: 1,
-    name: 'Лапша',
-    ingredients: 'лапша / соль / сливочное масло',
+    name: 'Спагетти',
+    ingredients: 'спагетти / соль / сливочное масло',
     type: 'garnishes', description: '', price: '22', image: '/garnish/lapsha/img0083.jpg',
     sliderImages: [
       '/garnish/lapsha/img0083.jpg',
@@ -136,8 +136,7 @@ export const DISHES: Dish[] = [
   {
     id: 1,
     name: 'Рис',
-    ingredients: 'рис / соль' +
-    'растительное масло', type: 'garnishes', description: '', price: '22', image: '/garnish/ris/img0063.jpg',
+    ingredients: 'рис / соль / растительное масло', type: 'garnishes', description: '', price: '22', image: '/garnish/ris/img0063.jpg',
     sliderImages: [
       '/garnish/ris/img0063.jpg',
       '/garnish/ris/img0064.jpg',
@@ -224,7 +223,7 @@ export const DISHES: Dish[] = [
     ingredients: 'морковка / лук / крупа булгур / кардамон / соль / семена льна',
     type: 'first_dishes',
     description: '',
-    price: '22',
+    price: '34',
     image: '/first_dishes/morkovnyi_sup_s_bulgurom/img0013.jpg',
     sliderImages: [
       '/first_dishes/morkovnyi_sup_s_bulgurom/img0013.jpg',
@@ -289,7 +288,7 @@ export const DISHES: Dish[] = [
   },
   {
     id: 1,
-    name: 'Гороховый суп с курицей',
+    name: 'Гороховый суп с беконом',
     ingredients: 'колотый горох / куриное филе / картофель / лук / чеснок / лук порей / имбирь / куркума / кориандр / зира / соль/перец',
     type: 'first_dishes',
     description: '',
@@ -417,7 +416,7 @@ export const DISHES: Dish[] = [
     id: 1,
     name: 'Красный борщ',
     ingredients: 'свекла / лук / морковка / капуста белокочанная / томатная паста / картофель / соль/перец / лавровый лист',
-    type: 'first_dishes', description: '', price: '22',
+    type: 'first_dishes', description: '', price: '34',
     image: '/first_dishes/krasnyi_borshch/img0108.jpg',
     sliderImages: [
       '/first_dishes/krasnyi_borshch/img0108.jpg',
@@ -455,7 +454,7 @@ export const DISHES: Dish[] = [
   {
     id: 1,
     name: 'Бульон с фрикадельками',
-    ingredients: 'куриный бульон / свино говяжий фарш / лук / морковка / соль/перец / зелень',
+    ingredients: 'куриный бульон / свино-говяжий фарш / лук / морковка / соль/перец / зелень',
     type: 'first_dishes', description: '', price: '34',
     image: '/first_dishes/bulion_s_frikadelkami/img0063.jpg',
     sliderImages: [
@@ -610,7 +609,7 @@ export const DISHES: Dish[] = [
   {
     id: 1,
     name: 'Греческий',
-    ingredients: 'помидор / огурец / перец болгарский / маринованный лук / сыр фета / оливки / растительное маслосоевый соус / горчица',
+    ingredients: 'помидор / огурец / перец болгарский / маринованный лук / сыр фета / оливки / растительное масло / соевый соус / горчица',
     type: 'salads', description: '', price: '34',
     image: '/salads/grecheskii/img0043.jpg',
     sliderImages: [
@@ -690,7 +689,7 @@ export const DISHES: Dish[] = [
   {
     id: 1,
     name: 'Корейский с курицей',
-    ingredients: 'морковка / спаржевая фасоль / шампиньоны / оливки / соль / масло растительное / перец',
+    ingredients: 'морковка / куринное филе / спаржевая фасоль / шампиньоны / оливки / соль / масло растительное / перец',
     type: 'salads', description: '', price: '40',
     image: '/salads/koreiskii/img0110.jpg',
     sliderImages: [
@@ -873,6 +872,20 @@ export const DISHES: Dish[] = [
   },
   {
     id: 1,
+    name: 'Свиная отбивная',
+    ingredients: 'свинина / пшеничная мука / куриное яйцо / соль/перец',
+    type: 'main_dishes', description: '', price: '45',
+    image: '/main_dishes/pork/svinnaya_otbivnaya/img0045.jpg',
+    sliderImages: [
+      '/main_dishes/pork/kurinaia_otbivnaia/img0045.jpg',
+      '/main_dishes/pork/kurinaia_otbivnaia/img0046.jpg',
+      '/main_dishes/pork/kurinaia_otbivnaia/img0047.jpg',
+      '/main_dishes/pork/kurinaia_otbivnaia/img0048.jpg',
+      '/main_dishes/pork/kurinaia_otbivnaia/img0049.jpg',
+    ], isSpecial: false
+  },
+  {
+    id: 1,
     name: 'Куриная отбивная с грибами под сыром',
     ingredients: 'филе куриное / пшеничная мука / куриное яйцо / соль/перец / грибы / твердый сыр',
     type: 'main_dishes', description: '', price: '50',
@@ -997,7 +1010,7 @@ export const DISHES: Dish[] = [
   {
     id: 1,
     name: 'Печень куриная с вишневым соусом',
-    ingredients: 'печень куриная / соль/специи / вишневый соус',
+    ingredients: 'печень куриная / лук / соль/специи / вишневый соус',
     type: 'main_dishes', description: '', price: '50',
     image: '/main_dishes/chicken/pechen_kurinaia_s_vishnevym_sousom/img0056.jpg',
     sliderImages: [
@@ -1421,6 +1434,56 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/kotleta/img0002.jpg',
       '/main_dishes/pork/kotleta/img0003.jpg',
       '/main_dishes/pork/kotleta/img0004.jpg',
+    ], isSpecial: false
+  },
+  {
+    id: 1,
+    name: 'Вареники',
+    ingredients: 'мука пшеничная / яйцо / картофель / грибы / лук / соль/перец / сметана',
+    type: 'main_dishes', description: '', price: '56',
+    image: '/header-logo.png',
+    sliderImages: [
+      '/header-logo.png'
+    ], isSpecial: false
+  },
+  {
+    id: 1,
+    name: 'Пельмени',
+    ingredients: 'мука пшеничная / яйцо / свинина / говядина / лук / соль/перец / сметана',
+    type: 'main_dishes', description: '', price: '56',
+    image: '/header-logo.png',
+    sliderImages: [
+      '/header-logo.png'
+    ], isSpecial: false
+  },
+  {
+    id: 1,
+    name: 'Плов куриный',
+    ingredients: 'куриное филе / рис / лук / морковка / соль/специи / растительное масло',
+    type: 'main_dishes', description: '', price: '56',
+    image: '/header-logo.png',
+    sliderImages: [
+      '/header-logo.png'
+    ], isSpecial: false
+  },
+  {
+    id: 1,
+    name: 'Плов свиной',
+    ingredients: 'свинина / рис / лук / морковка / соль/специи / растительное масло',
+    type: 'main_dishes', description: '', price: '56',
+    image: '/header-logo.png',
+    sliderImages: [
+      '/header-logo.png'
+    ], isSpecial: false
+  },
+  {
+    id: 1,
+    name: 'Плов говяжий',
+    ingredients: 'говядина / рис / лук / морковка / соль/специи / растительное масло',
+    type: 'main_dishes', description: '', price: '56',
+    image: '/header-logo.png',
+    sliderImages: [
+      '/header-logo.png'
     ], isSpecial: false
   }
   ];

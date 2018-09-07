@@ -19,6 +19,7 @@ export class MenuesComponent implements OnInit {
   openMobileMenu = false;
 
   onMenuTypeSelect(item: MenuType): void {
+    this.openMobileMenu = false;
     this.selectedMenuType = item;
     this.filterMenu();
   }
