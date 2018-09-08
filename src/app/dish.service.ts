@@ -10,8 +10,8 @@ export class DishService {
 
   constructor() { }
 
-  getDishes(): Dish[] {
-    return DISHES;
+  getDishes(type, day): Observable<Dish[]> {
+    return of(DISHES.filter(dish => (dish.type === type && dish.week.indexOf(day) !== -1)));
   }
 
   getDish(name: string): Observable<Dish> {

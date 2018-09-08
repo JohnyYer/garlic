@@ -17,29 +17,37 @@ export class MenuesComponent implements OnInit {
   dishes: Dish[];
   selectedMenuType = MENU_TYPES[0];
   openMobileMenu = false;
+  week = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ'];
+  currentDay: string;
 
   onMenuTypeSelect(item: MenuType): void {
     this.openMobileMenu = false;
     this.selectedMenuType = item;
-    this.filterMenu();
-  }
-
-  filterMenu(): void {
-    this.dishes = this.dishService.getDishes().filter(
-      dish => dish.type === this.selectedMenuType.state);
+    this.getDishes();
   }
 
   getDishes(): void {
-    this.dishes = this.dishService.getDishes();
+    this.dishService.getDishes(this.selectedMenuType.state, this.currentDay)
+      .subscribe(dishes => this.dishes = dishes);
   }
 
   openMenuTypes(): void {
     this.openMobileMenu = !this.openMobileMenu;
   }
 
-  ngOnInit() {
+  getCurrentDay(): void {
+    const today = new Date().getDay();
+    this.currentDay = this.currentDay ? this.week[today] : this.week[0];
+  }
+
+  selectMenuByDay(day): void {
+    this.currentDay = day;
     this.getDishes();
-    this.filterMenu();
+  }
+
+  ngOnInit() {
+    this.getCurrentDay();
+    this.getDishes();
   }
 
 }

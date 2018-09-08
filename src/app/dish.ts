@@ -8,4 +8,5 @@ export class Dish {
   image: string;
   sliderImages: Array<string>;
   isSpecial: boolean;
+  week: Array<string>;
 }

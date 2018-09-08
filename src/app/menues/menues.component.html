@@ -1,4 +1,6 @@
 <div class="complexSection defaultSection largeBottomPadding">
+
+
   <div class="container">
     <div class="menuSideBar" [ngClass]="{'openSideBar' : openMobileMenu}">
       <div class="openMenu mobileView" (click)="openMenuTypes()" [ngClass]="{'active' : openMobileMenu}">меню</div>
@@ -16,6 +18,16 @@
       <div class="customTitle">
         {{ selectedMenuType.name }}
       </div>
+
+      <div class="daysItems">
+        <div class="dayItem"
+             *ngFor="let day of week"
+             [ngClass]="{'active': day === currentDay}"
+              (click)="selectMenuByDay(day)">
+          <div>{{ day }}</div>
+        </div>
+      </div>
+
       <div class="menuItems">
         <div class="menuItem" *ngFor="let dish of dishes ">
           <div class="storeItem textCenter">

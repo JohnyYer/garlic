@@ -5,13 +5,17 @@ export const DISHES: Dish[] = [
     id: 1,
     name: 'Гречневая каша',
     ingredients: 'гречневая крупа / сливочное масло',
-    type: 'garnishes', description: '', price: '22',
+    type: 'garnishes',
+    description: '',
+    price: '22',
     image: '/garnish/grechnevaia_kasha/img0039.jpg',
     sliderImages: [
       '/garnish/grechnevaia_kasha/img0039.jpg',
       '/garnish/grechnevaia_kasha/img0040.jpg',
       '/garnish/grechnevaia_kasha/img0041.jpg',
-    ], isSpecial: false
+    ],
+    isSpecial: false,
+    week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 2,
@@ -22,7 +26,7 @@ export const DISHES: Dish[] = [
       '/garnish/pshenichnaya_kasha/img0064.jpg',
       '/garnish/pshenichnaya_kasha/img0065.jpg',
       '/garnish/pshenichnaya_kasha/img0066.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 3,
@@ -36,7 +40,7 @@ export const DISHES: Dish[] = [
       '/garnish/kukuruznaia_kasha/img0053.jpg',
       '/garnish/kukuruznaia_kasha/img0054.jpg',
       '/garnish/kukuruznaia_kasha/img0055.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 4,
@@ -50,7 +54,7 @@ export const DISHES: Dish[] = [
       '/garnish/bulgur/img0061.jpg',
       '/garnish/bulgur/img0062.jpg',
       '/garnish/bulgur/img0063.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -62,7 +66,7 @@ export const DISHES: Dish[] = [
       '/garnish/makarony_farfalle/img0031.jpg',
       '/garnish/makarony_farfalle/img0032.jpg',
       '/garnish/makarony_farfalle/img0033.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -76,7 +80,7 @@ export const DISHES: Dish[] = [
       '/garnish/lapsha/img0086.jpg',
       '/garnish/lapsha/img0087.jpg',
       '/garnish/lapsha/img0088.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -91,7 +95,7 @@ export const DISHES: Dish[] = [
       '/garnish/kus-kus_s_tomatami_i_poreem/img0074.jpg',
       '/garnish/kus-kus_s_tomatami_i_poreem/img0075.jpg',
       '/garnish/kus-kus_s_tomatami_i_poreem/img0076.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -107,7 +111,7 @@ export const DISHES: Dish[] = [
       '/garnish/ris_s_ovoshami/img0080.jpg',
       '/garnish/ris_s_ovoshami/img0081.jpg',
       '/garnish/ris_s_ovoshami/img0082.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -118,7 +122,7 @@ export const DISHES: Dish[] = [
       '/garnish/pure_kartofelnoe/img0060.jpg',
       '/garnish/pure_kartofelnoe/img0061.jpg',
       '/garnish/pure_kartofelnoe/img0062.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -131,7 +135,7 @@ export const DISHES: Dish[] = [
       '/garnish/kartofel_pechenyi/img0018.jpg',
       '/garnish/kartofel_pechenyi/img0019.jpg',
       '/garnish/kartofel_pechenyi/img0020.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -143,7 +147,7 @@ export const DISHES: Dish[] = [
       '/garnish/ris/img0065.jpg',
       '/garnish/ris/img0066.jpg',
       '/garnish/ris/img0067.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -156,7 +160,7 @@ export const DISHES: Dish[] = [
       '/garnish/kartofel_otvarnoi_s_zelenyu/img0102.jpg',
       '/garnish/kartofel_otvarnoi_s_zelenyu/img0103.jpg',
       '/garnish/kartofel_otvarnoi_s_zelenyu/img0104.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -168,7 +172,7 @@ export const DISHES: Dish[] = [
       '/garnish/fasol_v_tomatnom_souse/img0078.jpg',
       '/garnish/fasol_v_tomatnom_souse/img0079.jpg',
       '/garnish/fasol_v_tomatnom_souse/img0080.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -181,7 +185,7 @@ export const DISHES: Dish[] = [
       '/garnish/tushenaia_kapusta/img0050.jpg',
       '/garnish/tushenaia_kapusta/img0051.jpg',
       '/garnish/tushenaia_kapusta/img0052.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -198,7 +202,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/kurinyi_sup_s_lapshoi_i_gribami/img0004.jpg',
       '/first_dishes/kurinyi_sup_s_lapshoi_i_gribami/img0005.jpg',
       '/first_dishes/kurinyi_sup_s_lapshoi_i_gribami/img0006.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -215,7 +219,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/finskii_slivochnyi_sup_s_lososem/img0010.jpg',
       '/first_dishes/finskii_slivochnyi_sup_s_lososem/img0011.jpg',
       '/first_dishes/finskii_slivochnyi_sup_s_lososem/img0012.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -232,7 +236,8 @@ export const DISHES: Dish[] = [
       '/first_dishes/morkovnyi_sup_s_bulgurom/img0016.jpg',
       '/first_dishes/morkovnyi_sup_s_bulgurom/img0017.jpg',
       '/first_dishes/morkovnyi_sup_s_bulgurom/img0018.jpg',
-    ], isSpecial: true
+    ], isSpecial: true,
+    week: ['ПН']
   },
   {
     id: 1,
@@ -247,7 +252,8 @@ export const DISHES: Dish[] = [
       '/first_dishes/kurinyi_krem-sup/img0020.jpg',
       '/first_dishes/kurinyi_krem-sup/img0021.jpg',
       '/first_dishes/kurinyi_krem-sup/img0022.jpg',
-    ], isSpecial: false
+    ], isSpecial: false,
+    week: ['ПН']
   },
   {
     id: 1,
@@ -264,7 +270,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/sup_chili_kon_karne/img0153.jpg',
       '/first_dishes/sup_chili_kon_karne/img0154.jpg',
       '/first_dishes/sup_chili_kon_karne/img0155.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -284,7 +290,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/chechevichnyi_sup_s_bekonom/img0162.jpg',
       '/first_dishes/chechevichnyi_sup_s_bekonom/img0163.jpg',
       '/first_dishes/chechevichnyi_sup_s_bekonom/img0164.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -301,7 +307,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/gorohovyi_sup_s_kuritsei/img0027.jpg',
       '/first_dishes/gorohovyi_sup_s_kuritsei/img0028.jpg',
       '/first_dishes/gorohovyi_sup_s_kuritsei/img0029.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -322,7 +328,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/syrnyi_sup/img0104.jpg',
       '/first_dishes/syrnyi_sup/img0105.jpg',
       '/first_dishes/syrnyi_sup/img0106.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -343,7 +349,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/ovoshnoi_krem-sup/img0043.jpg',
       '/first_dishes/ovoshnoi_krem-sup/img0044.jpg',
       '/first_dishes/ovoshnoi_krem-sup/img0045.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -371,7 +377,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/gribnoi_krem-sup/img0060.jpg',
       '/first_dishes/gribnoi_krem-sup/img0061.jpg',
       '/first_dishes/gribnoi_krem-sup/img0062.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -391,7 +397,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/sup_harcho/img0147.jpg',
       '/first_dishes/sup_harcho/img0148.jpg',
       '/first_dishes/sup_harcho/img0149.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -410,7 +416,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/solianka_miasnaya/img0125.jpg',
       '/first_dishes/solianka_miasnaya/img0126.jpg',
       '/first_dishes/solianka_miasnaya/img0127.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -429,7 +435,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/krasnyi_borshch/img0115.jpg',
       '/first_dishes/krasnyi_borshch/img0116.jpg',
       '/first_dishes/krasnyi_borshch/img0117.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -449,7 +455,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/zelenyi_borshch/img0136.jpg',
       '/first_dishes/zelenyi_borshch/img0137.jpg',
       '/first_dishes/zelenyi_borshch/img0138.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -470,7 +476,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/bulion_s_frikadelkami/img0072.jpg',
       '/first_dishes/bulion_s_frikadelkami/img0073.jpg',
       '/first_dishes/bulion_s_frikadelkami/img0074.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -490,7 +496,7 @@ export const DISHES: Dish[] = [
       '/first_dishes/okroshka_na_kefire/img0173.jpg',
       '/first_dishes/okroshka_na_kefire/img0174.jpg',
       '/first_dishes/okroshka_na_kefire/img0175.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -508,7 +514,7 @@ export const DISHES: Dish[] = [
       '/salads/salat_iz_belokochannoi_kapusty/img0016.jpg',
       '/salads/salat_iz_belokochannoi_kapusty/img0017.jpg',
       '/salads/salat_iz_belokochannoi_kapusty/img0018.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -531,7 +537,7 @@ export const DISHES: Dish[] = [
       '/salads/vegetarianskii/img0085.jpg',
       '/salads/vegetarianskii/img0086.jpg',
       '/salads/vegetarianskii/img0087.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -556,7 +562,7 @@ export const DISHES: Dish[] = [
       '/salads/valdorf/img0014.jpg',
       '/salads/valdorf/img0015.jpg',
       '/salads/valdorf/img0016.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -583,7 +589,7 @@ export const DISHES: Dish[] = [
       '/salads/syrnyi/img0032.jpg',
       '/salads/syrnyi/img0033.jpg',
       '/salads/syrnyi/img0034.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -604,7 +610,7 @@ export const DISHES: Dish[] = [
       '/salads/ovoshnoi/img0051.jpg',
       '/salads/ovoshnoi/img0052.jpg',
       '/salads/ovoshnoi/img0053.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -625,7 +631,7 @@ export const DISHES: Dish[] = [
       '/salads/grecheskii/img0061.jpg',
       '/salads/grecheskii/img0062.jpg',
       '/salads/grecheskii/img0063.jpg',
-    ], isSpecial: true
+    ], isSpecial: true, week: ['ПН']
   },
   {
     id: 1,
@@ -646,7 +652,7 @@ export const DISHES: Dish[] = [
       '/salads/tomaty_s_mocarelloi/img0107.jpg',
       '/salads/tomaty_s_mocarelloi/img0108.jpg',
       '/salads/tomaty_s_mocarelloi/img0109.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -665,7 +671,7 @@ export const DISHES: Dish[] = [
       '/salads/baklazhanovyi/img0077.jpg',
       '/salads/baklazhanovyi/img0078.jpg',
       '/salads/baklazhanovyi/img0079.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -684,7 +690,7 @@ export const DISHES: Dish[] = [
       '/salads/legkii_s_krem-syrom/img0095.jpg',
       '/salads/legkii_s_krem-syrom/img0096.jpg',
       '/salads/legkii_s_krem-syrom/img0097.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -698,7 +704,7 @@ export const DISHES: Dish[] = [
       '/salads/koreiskii/img0112.jpg',
       '/salads/koreiskii/img0113.jpg',
       '/salads/koreiskii/img0114.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -712,7 +718,7 @@ export const DISHES: Dish[] = [
       '/salads/salat_iz_pekinskoi_kapusty/img0056.jpg',
       '/salads/salat_iz_pekinskoi_kapusty/img0057.jpg',
       '/salads/salat_iz_pekinskoi_kapusty/img0058.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -729,7 +735,7 @@ export const DISHES: Dish[] = [
       '/salads/blinnyi/img0149.jpg',
       '/salads/blinnyi/img0150.jpg',
       '/salads/blinnyi/img0151.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -748,7 +754,7 @@ export const DISHES: Dish[] = [
       '/salads/salat_s_rukkoloi/img0128.jpg',
       '/salads/salat_s_rukkoloi/img0129.jpg',
       '/salads/salat_s_rukkoloi/img0120.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -766,7 +772,7 @@ export const DISHES: Dish[] = [
       '/salads/ikra_baklazhannaia/img0132.jpg',
       '/salads/ikra_baklazhannaia/img0133.jpg',
       '/salads/ikra_baklazhannaia/img0134.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -786,7 +792,7 @@ export const DISHES: Dish[] = [
       '/salads/ovoshnoi_sendvich/img0160.jpg',
       '/salads/ovoshnoi_sendvich/img0161.jpg',
       '/salads/ovoshnoi_sendvich/img0162.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -810,7 +816,7 @@ export const DISHES: Dish[] = [
       '/salads/rulet_iz_baklazhanov_s_tomatami/img0175.jpg',
       '/salads/rulet_iz_baklazhanov_s_tomatami/img0176.jpg',
       '/salads/rulet_iz_baklazhanov_s_tomatami/img0177.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -834,7 +840,7 @@ export const DISHES: Dish[] = [
       '/salads/rulet_iz_baklazhanov_s_syrno-orehovoi_nachinkoi/img0190.jpg',
       '/salads/rulet_iz_baklazhanov_s_syrno-orehovoi_nachinkoi/img0191.jpg',
       '/salads/rulet_iz_baklazhanov_s_syrno-orehovoi_nachinkoi/img0192.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -852,7 +858,7 @@ export const DISHES: Dish[] = [
       '/salads/cezar/img0141.jpg',
       '/salads/cezar/img0142.jpg',
       '/salads/cezar/img0143.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -868,7 +874,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/kurinaia_otbivnaia/img0005.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia/img0006.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia/img0007.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -882,7 +888,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/kurinaia_otbivnaia/img0047.jpg',
       '/main_dishes/pork/kurinaia_otbivnaia/img0048.jpg',
       '/main_dishes/pork/kurinaia_otbivnaia/img0049.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -899,7 +905,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0027.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0028.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0029.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -913,7 +919,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/kurinaia_otbivnaia_s_ananasom_pod_syrom/img0036.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia_s_ananasom_pod_syrom/img0037.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia_s_ananasom_pod_syrom/img0038.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -929,7 +935,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/Kuritsa_s_gribami_v_slivochnom_souse/img0110.jpg',
       '/main_dishes/chicken/Kuritsa_s_gribami_v_slivochnom_souse/img0111.jpg',
       '/main_dishes/chicken/Kuritsa_s_gribami_v_slivochnom_souse/img0112.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -948,7 +954,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/kurinaia_nozhka_s_kunzhutom/img0114.jpg',
       '/main_dishes/chicken/kurinaia_nozhka_s_kunzhutom/img0115.jpg',
       '/main_dishes/chicken/kurinaia_nozhka_s_kunzhutom/img0116.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -967,7 +973,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/krylia_kurinye_v_medovom_souse/img0015.jpg',
       '/main_dishes/chicken/krylia_kurinye_v_medovom_souse/img0016.jpg',
       '/main_dishes/chicken/krylia_kurinye_v_medovom_souse/img0017.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -980,7 +986,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/shashlychok_kurinnyi_bedro/img0069.jpg',
       '/main_dishes/chicken/shashlychok_kurinnyi_bedro/img0070.jpg',
       '/main_dishes/chicken/shashlychok_kurinnyi_bedro/img0071.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
 /*  {
     id: 1,
@@ -993,7 +999,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/mini-steyki_kurinnye/img0074.jpg',
       '/main_dishes/chicken/mini-steyki_kurinnye/img0075.jpg',
       '/main_dishes/chicken/mini-steyki_kurinnye/img0076.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },*/
   {
     id: 1,
@@ -1005,7 +1011,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/kotleta_kurinaia/img0089.jpg',
       '/main_dishes/chicken/kotleta_kurinaia/img0090.jpg',
       '/main_dishes/chicken/kotleta_kurinaia/img0091.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -1018,7 +1024,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/pechen_kurinaia_s_vishnevym_sousom/img0057.jpg',
       '/main_dishes/chicken/pechen_kurinaia_s_vishnevym_sousom/img0058.jpg',
       '/main_dishes/chicken/pechen_kurinaia_s_vishnevym_sousom/img0059.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -1035,7 +1041,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/kordon_chiz/img0103.jpg',
       '/main_dishes/chicken/kordon_chiz/img0104.jpg',
       '/main_dishes/chicken/kordon_chiz/img0105.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -1050,7 +1056,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/kotleta_po-kievski/img0095.jpg',
       '/main_dishes/chicken/kotleta_po-kievski/img0096.jpg',
       '/main_dishes/chicken/kotleta_po-kievski/img0097.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -1069,7 +1075,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/fahitos_s_kuritsei/img0124.jpg',
       '/main_dishes/chicken/fahitos_s_kuritsei/img0125.jpg',
       '/main_dishes/chicken/fahitos_s_kuritsei/img0126.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -1084,7 +1090,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/rulet_kurinyi_s_gribami/img0130.jpg',
       '/main_dishes/chicken/rulet_kurinyi_s_gribami/img0131.jpg',
       '/main_dishes/chicken/rulet_kurinyi_s_gribami/img0132.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -1101,7 +1107,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/utinaya_nozhka_s_iagodnym_sousom/img0059.jpg',
       '/main_dishes/chicken/utinaya_nozhka_s_iagodnym_sousom/img0060.jpg',
       '/main_dishes/chicken/utinaya_nozhka_s_iagodnym_sousom/img0061.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -1118,7 +1124,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/chicken/perepelka_v_medovo_gorchichnom_souse/img0079.jpg',
       '/main_dishes/chicken/perepelka_v_medovo_gorchichnom_souse/img0080.jpg',
       '/main_dishes/chicken/perepelka_v_medovo_gorchichnom_souse/img0081.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -1128,7 +1134,7 @@ export const DISHES: Dish[] = [
     image: '/header-logo.png',
     sliderImages: [
       '/header-logo.png',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -1143,7 +1149,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/svinina_stir-frai/img0097.jpg',
       '/main_dishes/pork/svinina_stir-frai/img0098.jpg',
       '/main_dishes/pork/svinina_stir-frai/img0099.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -1159,7 +1165,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/chelogach/img0019.jpg',
       '/main_dishes/pork/chelogach/img0020.jpg',
     ],
-    isSpecial: true
+    isSpecial: true, week: ['ПН']
   },
   {
     id: 1,
@@ -1184,7 +1190,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/svinye_rebra_BBQ/img0051.jpg',
       '/main_dishes/pork/svinye_rebra_BBQ/img0052.jpg',
       '/main_dishes/pork/svinye_rebra_BBQ/img0053.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -1197,7 +1203,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/shashlyck_svinoi/img0006.jpg',
       '/main_dishes/pork/shashlyck_svinoi/img0007.jpg',
       '/main_dishes/pork/shashlyck_svinoi/img0008.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -1213,7 +1219,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/mini-steiki_iz_svininy/img0069.jpg',
       '/main_dishes/pork/mini-steiki_iz_svininy/img0010.jpg',
       '/main_dishes/pork/mini-steiki_iz_svininy/img0071.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -1228,7 +1234,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/svinina_v_kislo-sladkom_souse/img0085.jpg',
       '/main_dishes/pork/svinina_v_kislo-sladkom_souse/img0086.jpg',
       '/main_dishes/pork/svinina_v_kislo-sladkom_souse/img0087.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -1244,7 +1250,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/kolbaski_munhenskie/img0092.jpg',
       '/main_dishes/pork/kolbaski_munhenskie/img0093.jpg',
       '/main_dishes/pork/kolbaski_munhenskie/img0094.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -1260,7 +1266,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/beef/teliatina_v_imbirnom_souse/img0046.jpg',
       '/main_dishes/beef/teliatina_v_imbirnom_souse/img0047.jpg',
       '/main_dishes/beef/teliatina_v_imbirnom_souse/img0048.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -1275,7 +1281,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/beef/bifshteks_goviazhii/img0036.jpg',
       '/main_dishes/beef/bifshteks_goviazhii/img0037.jpg',
       '/main_dishes/beef/bifshteks_goviazhii/img0038.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -1289,7 +1295,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/svinina_darnytskaya/img0007.jpg',
       '/main_dishes/pork/svinina_darnytskaya/img0008.jpg',
       '/main_dishes/pork/svinina_darnytskaya/img0009.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -1305,7 +1311,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/beef/mini-steiki_iz_goviadiny/img0044.jpg',
       '/main_dishes/beef/mini-steiki_iz_goviadiny/img0045.jpg',
       '/main_dishes/beef/mini-steiki_iz_goviadiny/img0046.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -1321,7 +1327,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/beef/teliatina_po-tayski/img0108.jpg',
       '/main_dishes/beef/teliatina_po-tayski/img0109.jpg',
       '/main_dishes/beef/teliatina_po-tayski/img0110.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -1334,7 +1340,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/fish/file_ryby_s_ovoshami_pod_syrom/img0025.jpg',
       '/main_dishes/fish/file_ryby_s_ovoshami_pod_syrom/img0026.jpg',
       '/main_dishes/fish/file_ryby_s_ovoshami_pod_syrom/img0027.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -1349,7 +1355,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/fish/file_ryby_so_shpinatom/img0031.jpg',
       '/main_dishes/fish/file_ryby_so_shpinatom/img0032.jpg',
       '/main_dishes/fish/file_ryby_so_shpinatom/img0033.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -1363,7 +1369,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/fish/file_ryby_v_kroshke/img0021.jpg',
       '/main_dishes/fish/file_ryby_v_kroshke/img0022.jpg',
       '/main_dishes/fish/file_ryby_v_kroshke/img0023.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
@@ -1380,7 +1386,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/fish/hek_v_tomatnom_souse/img0116.jpg',
       '/main_dishes/fish/hek_v_tomatnom_souse/img0117.jpg',
       '/main_dishes/fish/hek_v_tomatnom_souse/img0118.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   },
   {
     id: 1,
@@ -1394,7 +1400,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/fish/steik_iz_gorbushi_gril/img0055.jpg',
       '/main_dishes/fish/steik_iz_gorbushi_gril/img0056.jpg',
       '/main_dishes/fish/steik_iz_gorbushi_gril/img0057.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -1407,7 +1413,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/fish/karp_s_ovoshami/img0068.jpg',
       '/main_dishes/fish/karp_s_ovoshami/img0069.jpg',
       '/main_dishes/fish/karp_s_ovoshami/img0070.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -1421,7 +1427,7 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/svinnaya_s_ovoschami_pod_syrom/img0012.jpg',
       '/main_dishes/pork/svinnaya_s_ovoschami_pod_syrom/img0013.jpg',
       '/main_dishes/pork/svinnaya_s_ovoschami_pod_syrom/img0014.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -1434,17 +1440,17 @@ export const DISHES: Dish[] = [
       '/main_dishes/pork/kotleta/img0002.jpg',
       '/main_dishes/pork/kotleta/img0003.jpg',
       '/main_dishes/pork/kotleta/img0004.jpg',
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
     id: 1,
-    name: 'Вареники',
+    name: 'Вареники с картошкой',
     ingredients: 'мука пшеничная / яйцо / картофель / грибы / лук / соль/перец / сметана',
     type: 'main_dishes', description: '', price: '56',
     image: '/header-logo.png',
     sliderImages: [
       '/header-logo.png'
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ВТ']
   },
   {
     id: 1,
@@ -1454,7 +1460,7 @@ export const DISHES: Dish[] = [
     image: '/header-logo.png',
     sliderImages: [
       '/header-logo.png'
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ЧТ']
   },
   {
     id: 1,
@@ -1464,7 +1470,7 @@ export const DISHES: Dish[] = [
     image: '/header-logo.png',
     sliderImages: [
       '/header-logo.png'
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПН']
   },
   {
     id: 1,
@@ -1474,7 +1480,7 @@ export const DISHES: Dish[] = [
     image: '/header-logo.png',
     sliderImages: [
       '/header-logo.png'
-    ], isSpecial: false
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -1484,6 +1490,6 @@ export const DISHES: Dish[] = [
     image: '/header-logo.png',
     sliderImages: [
       '/header-logo.png'
-    ], isSpecial: false
+    ], isSpecial: false, week: ['СР']
   }
   ];
