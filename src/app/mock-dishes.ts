@@ -139,18 +139,6 @@ export const DISHES: Dish[] = [
   },
   {
     id: 1,
-    name: 'Рис',
-    ingredients: 'рис / соль / растительное масло', type: 'garnishes', description: '', price: '22', image: '/garnish/ris/img0063.jpg',
-    sliderImages: [
-      '/garnish/ris/img0063.jpg',
-      '/garnish/ris/img0064.jpg',
-      '/garnish/ris/img0065.jpg',
-      '/garnish/ris/img0066.jpg',
-      '/garnish/ris/img0067.jpg',
-    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
-  },
-  {
-    id: 1,
     name: 'Картофель отварной с зеленью',
     ingredients: 'картофель / соль / растительное масло / петрушка/укроп',
     type: 'garnishes', description: '', price: '22', image: '/garnish/kartofel_otvarnoi_s_zelenyu/img0100.jpg',
@@ -566,7 +554,7 @@ export const DISHES: Dish[] = [
   },
   {
     id: 1,
-    name: 'Сырный',
+    name: 'Салат с яблоком и сельдереем',
     ingredients: 'стебель сельдерея / яблоко / твердый сыр / майонез / соль/перец',
     type: 'salads', description: '', price: '40',
     image: '/salads/syrnyi/img0017.jpg',
@@ -589,7 +577,7 @@ export const DISHES: Dish[] = [
       '/salads/syrnyi/img0032.jpg',
       '/salads/syrnyi/img0033.jpg',
       '/salads/syrnyi/img0034.jpg',
-    ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
+    ], isSpecial: false, week: ['ПТ']
   },
   {
     id: 1,
@@ -865,15 +853,12 @@ export const DISHES: Dish[] = [
     name: 'Куриная отбивная',
     ingredients: 'филе куриное / пшеничная мука / куриное яйцо / соль/перец',
     type: 'main_dishes', description: '', price: '45',
-    image: '/main_dishes/chicken/kurinaia_otbivnaia/img0001.jpg',
+    image: '/main_dishes/chicken/kurinaia_otbivnaia/img0001 2.jpg',
     sliderImages: [
       '/main_dishes/chicken/kurinaia_otbivnaia/img0001 2.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia/img0002 2.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia/img0003 2.jpg',
-      '/main_dishes/chicken/kurinaia_otbivnaia/img0004 2.jpg',
-      '/main_dishes/chicken/kurinaia_otbivnaia/img0005.jpg',
-      '/main_dishes/chicken/kurinaia_otbivnaia/img0006.jpg',
-      '/main_dishes/chicken/kurinaia_otbivnaia/img0007.jpg',
+      '/main_dishes/chicken/kurinaia_otbivnaia/img0004 2.jpg'
     ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
