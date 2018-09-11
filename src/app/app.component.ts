@@ -8,6 +8,7 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 export class AppComponent implements OnInit {
   title = 'garlic-front';
+  routerUrl: string;
 
   constructor(private router: Router) {}
 
@@ -18,5 +19,7 @@ export class AppComponent implements OnInit {
       }
       window.scrollTo(0, 0);
     });
+
+    this.routerUrl = this.router.url;
   }
 }

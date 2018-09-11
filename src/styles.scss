@@ -1988,8 +1988,9 @@ $robotoRegular: 'robotoregular';
   }
 
   .daysItems{
+    margin-bottom: 0;
     .dayItem{
-      width: 100%;
+      width: 15%;
       height: auto;
       padding: 10px;
       display: inline-flex;
