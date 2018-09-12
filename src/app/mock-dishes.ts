@@ -214,7 +214,7 @@ export const DISHES: Dish[] = [
     name: 'Морковный суп с булгуром',
     ingredients: 'морковка / лук / крупа булгур / кардамон / соль / семена льна',
     type: 'first_dishes',
-    description: '',
+    description: 'Нежный и легкий суп, с приятным сливочным послевкусием.',
     price: '34',
     image: '/first_dishes/morkovnyi_sup_s_bulgurom/img0013.jpg',
     sliderImages: [
@@ -604,7 +604,8 @@ export const DISHES: Dish[] = [
     id: 1,
     name: 'Греческий',
     ingredients: 'помидор / огурец / перец болгарский / маринованный лук / сыр фета / оливки / растительное масло / соевый соус / горчица',
-    type: 'salads', description: '', price: '34',
+    type: 'salads',
+    description: 'ГреческийСвежие овощи с добавлением сыра, оливок и пикантного дрессинга', price: '34',
     image: '/salads/grecheskii/img0043.jpg',
     sliderImages: [
       '/salads/grecheskii/img0043.jpg',
@@ -853,12 +854,12 @@ export const DISHES: Dish[] = [
     name: 'Куриная отбивная',
     ingredients: 'филе куриное / пшеничная мука / куриное яйцо / соль/перец',
     type: 'main_dishes', description: '', price: '45',
-    image: '/main_dishes/chicken/kurinaia_otbivnaia/img0001 2.jpg',
+    image: '/main_dishes/chicken/kurinaia_otbivnaia/img0001.jpg',
     sliderImages: [
-      '/main_dishes/chicken/kurinaia_otbivnaia/img0001 2.jpg',
-      '/main_dishes/chicken/kurinaia_otbivnaia/img0002 2.jpg',
-      '/main_dishes/chicken/kurinaia_otbivnaia/img0003 2.jpg',
-      '/main_dishes/chicken/kurinaia_otbivnaia/img0004 2.jpg'
+      '/main_dishes/chicken/kurinaia_otbivnaia/img0001.jpg',
+      '/main_dishes/chicken/kurinaia_otbivnaia/img0002.jpg',
+      '/main_dishes/chicken/kurinaia_otbivnaia/img0003.jpg',
+      '/main_dishes/chicken/kurinaia_otbivnaia/img0004.jpg'
     ], isSpecial: false, week: ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ']
   },
   {
@@ -880,12 +881,8 @@ export const DISHES: Dish[] = [
     name: 'Куриная отбивная с грибами под сыром',
     ingredients: 'филе куриное / пшеничная мука / куриное яйцо / соль/перец / грибы / твердый сыр',
     type: 'main_dishes', description: '', price: '50',
-    image: '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0013.jpg',
+    image: '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0026.jpg',
     sliderImages: [
-      '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0013.jpg',
-      '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0014.jpg',
-      '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0015.jpg',
-      '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0016.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0026.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0027.jpg',
       '/main_dishes/chicken/kurinaia_otbivnaia_s_gribami_pod_syrom/img0028.jpg',
@@ -1140,7 +1137,9 @@ export const DISHES: Dish[] = [
     id: 1,
     name: 'Челогач',
     ingredients: 'свинина / соль/специи',
-    type: 'main_dishes', description: '', price: '67',
+    type: 'main_dishes',
+    description: 'Сочный румяный кусок свиного мяса на кости для настоящих гурманов',
+    price: '67',
     image: '/main_dishes/pork/chelogach/img0015.jpg',
     sliderImages: [
       '/main_dishes/pork/chelogach/img0015.jpg',

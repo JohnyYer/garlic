@@ -36,8 +36,8 @@ export class MenuesComponent implements OnInit {
   }
 
   getCurrentDay(): void {
-    const today = new Date().getDay();
-    this.currentDay = this.currentDay ? this.week[today] : this.week[0];
+    const today = new Date().getDay() - 1;
+    this.currentDay = this.week[today] ? this.week[today] : this.week[0];
   }
 
   selectMenuByDay(day): void {

@@ -1,20 +1,20 @@
-<div class="header" [ngClass]="{'noSlider': routerUrl !== '/home'}">
-  <div class="headerNav">
+<div class="header" [ngClass]="{'noSlider': router.url !== '/home'}">
+  <div class="headerNav" [ngClass]="{'openSide' : mainMobileMenu}">
     <div class="container">
-      <div class="menu__burger">
+      <div class="menu__burger" [ngClass]="{'active' : mainMobileMenu}" (click)="mainMobileMenu = !mainMobileMenu;">
         <span></span>
       </div>
       <a routerLink="/" class="headerLogo">
         <img src="assets/img/header-logo.png" alt="" title="">
       </a>
-      <ul>
+      <ul [ngClass]="{'open-nav' : mainMobileMenu}">
         <li>
-          <a routerLink="/">
+          <a routerLink="/" (click)="mainMobileMenu = false;">
             главная
           </a>
         </li>
         <li>
-          <a routerLink="menu">
+          <a routerLink="menu" (click)="mainMobileMenu = false;">
             меню
           </a>
         </li>
@@ -46,23 +46,14 @@
       </a>
     </div>
   </div>
-  <div class="headerSlider">
-    <div class="slide" style="background-image:url('../assets/img/slide.jpg');">
+
+  <ngx-slick class="headerSlider " [config]="slideConfig">
+    <div ngxSlickItem *ngFor="let slide of [1, 2 ,3]" class="slide" style="background-image:url('../assets/img/slide.jpg');">
       <div class="slideTitle">
         <span>delivery</span>food
       </div>
     </div>
-    <div class="slide" style="background-image:url('../assets/img/slide.jpg');">
-      <div class="slideTitle">
-        <span>delivery</span>food
-      </div>
-    </div>
-    <div class="slide" style="background-image:url('../assets/img/slide.jpg');">
-      <div class="slideTitle">
-        <span>delivery</span>food
-      </div>
-    </div>
-  </div>
+  </ngx-slick>
 </div>
 
 <router-outlet></router-outlet>

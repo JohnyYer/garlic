@@ -160,6 +160,9 @@ $robotoRegular: 'robotoregular';
   width: 100%;
   &.noSlider{
     height: auto;
+    .headerSlider {
+      height: 0;
+    }
   }
   .headerNav{
     height: 120px;
@@ -445,7 +448,6 @@ $robotoRegular: 'robotoregular';
       .promoText{
         font: 18px/24px $robotoLight;
         color: #ffffff;
-        max-height: 48px;
         overflow: hidden;
         width: 90%;
       }

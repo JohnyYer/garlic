@@ -1,6 +1,6 @@
 <div class="promoSection defaultSection">
 
-  <ngx-slick class="promoSlider" [config]="slideConfig">
+  <ngx-slick class="promoSlider " [config]="slideConfig">
     <div ngxSlickItem *ngFor="let slide of slides" class="promoOuterSlide">
       <div class="promoSlide">
         <div class="promoImage backgroundImage" [ngStyle]="{'background-image': 'url(assets/img' + slide.sliderImages[0] + ')'}">
@@ -12,7 +12,7 @@
               {{ slide.name }}
             </div>
             <div class="promoText">
-              {{ slide.ingredients }}
+              {{ slide.description }}
             </div>
             <a routerLink="/dish/{{ slide.name }}" class="promoLink">
                 Подробнее

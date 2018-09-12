@@ -7,10 +7,17 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent implements OnInit {
-  title = 'garlic-front';
-  routerUrl: string;
+  mainMobileMenu = false;
+  slideConfig = {
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+    dots: true,
+    autoplay: false
+  };
 
-  constructor(private router: Router) {}
+  constructor(public router: Router) {}
 
   ngOnInit() {
     this.router.events.subscribe((evt) => {
@@ -19,7 +26,5 @@ export class AppComponent implements OnInit {
       }
       window.scrollTo(0, 0);
     });
-
-    this.routerUrl = this.router.url;
-  }
+    }
 }
